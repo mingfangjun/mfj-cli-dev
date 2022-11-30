@@ -1,6 +1,6 @@
 {
   "name": "@mfj-cli-dev/core",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "mfj-cli-dev core",
   "author": "mingfangjun <1217239899@qq.com>",
   "homepage": "",
@@ -20,5 +20,7 @@
     "test": "node ./__tests__/core.test.js"
   },
   "gitHead": "31258bb94dd2cf2dd628fa68c4b2e26b438d028b",
-  "publishConfig": {"access": "public"}
+  "publishConfig": {
+    "access": "public"
+  }
 }
