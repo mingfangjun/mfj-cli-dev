@@ -1,6 +1,6 @@
 {
   "name": "@mfj-cli-dev/core",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "mfj-cli-dev core",
   "author": "mingfangjun <1217239899@qq.com>",
   "homepage": "",
@@ -15,8 +15,5 @@
   ],
   "scripts": {
     "test": "node ./__tests__/core.test.js"
-  },
-  "dependencies": {
-  
   }
 }
