@@ -7,7 +7,7 @@
   "license": "ISC",
   "main": "lib/core.js",
   "bin": {
-    "mfj-cli-dev": "bin/index.js"
+    "mfj-cli-dev": "bin/index.Sjs"
   },
   "directories": {
     "lib": "lib",
@@ -19,5 +19,6 @@
   "scripts": {
     "test": "node ./__tests__/core.test.js"
   },
-  "gitHead": "31258bb94dd2cf2dd628fa68c4b2e26b438d028b"
+  "gitHead": "31258bb94dd2cf2dd628fa68c4b2e26b438d028b",
+  "publishConfig": {"access": "public"}
 }
