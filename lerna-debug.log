@@ -1,13 +1,10 @@
-0 silly argv {
-0 silly argv   _: [ 'add' ],
-0 silly argv   globs: [],
-0 silly argv   lernaVersion: '6.1.0',
-0 silly argv   '$0': 'C:\\software\\nodejs\\node_global\\node_modules\\lerna\\cli.js',
-0 silly argv   pkg: '@imooc-cli/dev'
-0 silly argv }
-1 notice cli v6.1.0
-2 verbose rootPath F:\work-space\mfj-cli-dev
-3 error HttpErrorGeneral: 404 Not Found - GET https://registry.npmjs.org/@imooc-cli%2fdev - Not found
-3 error     at F:\work-space\mfj-cli-dev\node_modules\_npm-registry-fetch@13.3.1@npm-registry-fetch\lib\check-response.js:95:15
-3 error     at processTicksAndRejections (internal/process/task_queues.js:95:5)
-3 error     at async RegistryFetcher.packument (F:\work-space\mfj-cli-dev\node_modules\_pacote@13.6.2@pacote\lib\registry.js:92:19)
+15 error Error: Command failed with exit code 1: git remote update
+15 error fatal: unable to access 'https://github.com/mingfangjun/mfj-cli-dev.git/': OpenSSL SSL_read: Connection was reset, errno 10054
+15 error error: Could not fetch origin
+15 error Fetching origin
+15 error     at makeError (F:\work-space\mfj-cli-dev\node_modules\execa\lib\error.js:60:11)
+15 error     at Function.module.exports.sync (F:\work-space\mfj-cli-dev\node_modules\execa\index.js:194:17)
+15 error     at Object.execSync (F:\work-space\mfj-cli-dev\node_modules\@lerna\child-process\index.js:39:16)
+15 error     at updateRemote (F:\work-space\mfj-cli-dev\node_modules\@lerna\version\lib\is-behind-upstream.js:34:16)
+15 error     at isBehindUpstream (F:\work-space\mfj-cli-dev\node_modules\@lerna\version\lib\is-behind-upstream.js:16:3)
+15 error     at VersionCommand.initialize (F:\work-space\mfj-cli-dev\node_modules\@lerna\version\index.js:156:9)
