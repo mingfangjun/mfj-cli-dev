@@ -1,0 +1,17 @@
+{
+  "name": "mfj-cli-dev",
+  "version": "1.0.0",
+  "description": "mfj-cli-dev",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "mfj",
+  "license": "ISC",
+  "devDependencies": {
+    "lerna": "^6.1.0"
+  },
+  "workspaces": [
+    "packages/*"
+  ]
+}

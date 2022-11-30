@@ -1,0 +1,22 @@
+{
+  "name": "@mfj-cli-dev/core",
+  "version": "1.0.0",
+  "description": "mfj-cli-dev core",
+  "author": "mingfangjun <1217239899@qq.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/core.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "node ./__tests__/core.test.js"
+  },
+  "dependencies": {
+    "@imooc-cli/utils": "^1.1.3"
+  }
+}
